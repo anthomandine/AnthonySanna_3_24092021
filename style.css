@@ -1,0 +1,130 @@
+@font-face
+{
+    font-family: 'Roboto';
+    src: url('assets/font/Roboto/Roboto-Medium.ttf');
+}
+
+@font-face
+{
+    font-family: 'Shrikhand';
+    src: url('assets/font/Shrikhand/Shrikhand-Regular.ttf');
+}
+
+/*@media all and (max-width: 768px)
+{*/
+
+	html body 
+	{
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	header img
+	{
+		width: 200px;
+		display: block;
+		margin: auto;
+	}
+
+	.firstSection 
+	{
+		text-align: center;
+		background-color: rgb(247, 246, 246);
+		height: 300px;
+	}
+
+	.firstSection #localisation
+	{
+		background-color: rgb(234, 234, 234);
+		padding: 14px;
+		box-shadow: 0px -2px 4px grey;
+	}
+
+	.firstSection h2
+	{
+		padding-top: 10px;
+	}
+
+	#button
+	{
+		background: linear-gradient(to bottom, rgb(238, 128, 214) 5%, rgb(138, 89, 213) 100%);
+		border-radius: 20px;
+	    padding: 14px;
+	    color: white;
+	    border: none;
+	}
+
+	nav p 
+	{
+		border: solid rgb(247, 246, 246) 1px;
+		background-color: rgb(247, 246, 246);
+		border-radius: 20px;
+		padding: 25px;
+
+	}
+
+	nav i 
+	{
+		padding-right: 10px;
+		padding-left: 5px;
+	}
+
+	.secondSection figure img
+	{
+		height: 130px;
+		width: 100%;
+		object-fit: cover;
+		border-radius: 20px 20px 0px 0px;
+	}
+
+	.secondSection figure
+	{
+		border: solid rgb(247, 246, 246) 1px;
+		border-radius: 20px;
+		box-shadow: 0px 0px 10px grey;
+	}
+
+	.secondSection figure i 
+	{
+		margin-left: 100px;
+	}
+
+	.secondSection .description
+	{
+		font-weight: lighter;
+		font-family: sans-serif;
+	}
+
+	a 
+	{
+		text-decoration: none;
+		color: black;
+	}
+
+	footer
+	{
+		color: white;
+		background-color: rgb(54, 53, 53);
+	}
+
+	footer h3
+	{
+		font-family: 'Shrikhand' ;
+		padding-left: 30px;
+		padding-top: 30px;
+	}
+
+	footer ul
+	{
+		list-style: none;
+	}
+
+	footer li 
+	{
+		padding-top: 10px;
+	}
+
+
+
+
+
+/*}*/
