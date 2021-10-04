@@ -10,14 +10,11 @@
     src: url('assets/font/Shrikhand/Shrikhand-Regular.ttf');
 }
 
-/*@media all and (max-width: 768px)
-{*/
-
 	html body 
 	{
 		font-family: 'Roboto', sans-serif;
 	}
-	
+
 	header img
 	{
 		width: 200px;
@@ -47,10 +44,17 @@
 	#button
 	{
 		background: linear-gradient(to bottom, rgb(238, 128, 214) 5%, rgb(138, 89, 213) 100%);
+		box-shadow: 2px 2px 2px black;
 		border-radius: 20px;
 	    padding: 14px;
 	    color: white;
 	    border: none;
+	}
+
+	#button:hover
+	{
+		box-shadow: 10px 5px 5px black;
+		opacity: 0.7;
 	}
 
 	nav p 
@@ -59,13 +63,28 @@
 		background-color: rgb(247, 246, 246);
 		border-radius: 20px;
 		padding: 25px;
+	}
 
+	nav p:hover
+	{
+		background-color: rgba(138, 89, 213, 0.3);
 	}
 
 	nav i 
 	{
 		padding-right: 10px;
 		padding-left: 5px;
+	}
+
+	nav .list
+	{
+		color: white;
+		border: solid rgb(138, 89, 213) 1px;
+		border-radius: 20px;
+		background-color: rgb(138, 89, 213);
+		padding: 2px 7px 2px 7px;
+		position: absolute;
+		left: 0px;
 	}
 
 	.secondSection figure img
@@ -83,9 +102,47 @@
 		box-shadow: 0px 0px 10px grey;
 	}
 
+	.secondSection #new, #new2
+	{
+		border: solid #99E2D0 1px;
+		background-color: #99E2D0;
+		width: max-content;
+		padding: 5px;
+		color: rgb(76, 150, 124);
+	}
+
+	.secondSection #new
+	{
+		position: absolute;
+		right: 80px;
+		top: 740px;
+	}
+
+	.secondSection #new2
+	{
+		position: absolute;
+		right: 80px;
+		top: 976px;
+	}
+
 	.secondSection figure i 
 	{
-		margin-left: 100px;
+		position: absolute;
+    	right: 70px;
+    	font-size: 30px;
+    	opacity: 0.2;
+	}
+
+	.secondSection figure i:hover
+	{
+		color: rgb(138, 89, 213);
+		opacity: 1;
+
+	}
+
+	.secondSection figcaption
+	{
+		padding-left: 10px;
 	}
 
 	.secondSection .description
@@ -122,9 +179,3 @@
 	{
 		padding-top: 10px;
 	}
-
-
-
-
-
-/*}*/
