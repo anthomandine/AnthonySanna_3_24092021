@@ -1,13 +1,13 @@
 @font-face
 {
     font-family: 'Roboto';
-    src: url('assets/font/Roboto/Roboto-Medium.ttf');
+    src: url('assets/style/font/Roboto/Roboto-Medium.ttf');
 }
 
 @font-face
 {
     font-family: 'Shrikhand';
-    src: url('assets/font/Shrikhand/Shrikhand-Regular.ttf');
+    src: url('assets/style/font/Shrikhand/Shrikhand-Regular.ttf');
 }
 
 html body 
@@ -68,11 +68,33 @@ header #headerImg
     margin: 7px;
     padding: 2px;
     box-shadow: 1px 1px 4px grey;
+    position: relative;
 }
 
 .choice h4
 {
     margin: 4px;
+}
+
+.check
+{
+    font-size: 30px;
+    color: white;
+    background-color: #99E2D0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+
+.flexCheck
+{
+    display: flex;
+    flex-direction: row;
 }
 
 .choice2
@@ -81,7 +103,10 @@ header #headerImg
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .choice2 p

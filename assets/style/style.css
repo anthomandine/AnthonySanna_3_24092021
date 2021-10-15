@@ -1,13 +1,13 @@
 @font-face
 {
     font-family: 'Roboto';
-    src: url('assets/font/Roboto/Roboto-Medium.ttf');
+    src: url('assets/style/font/Roboto/Roboto-Medium.ttf');
 }
 
 @font-face
 {
     font-family: 'Shrikhand';
-    src: url('assets/font/Shrikhand/Shrikhand-Regular.ttf');
+    src: url('assets/style/font/Shrikhand/Shrikhand-Regular.ttf');
 }
 
 	html body 
