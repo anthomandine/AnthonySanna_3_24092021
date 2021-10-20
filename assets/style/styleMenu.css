@@ -1,13 +1,13 @@
 @font-face
 {
     font-family: 'Roboto';
-    src: url('assets/style/font/Roboto/Roboto-Medium.ttf');
+    src: url('font/Roboto/Roboto-Medium.ttf');
 }
 
 @font-face
 {
     font-family: 'Shrikhand';
-    src: url('assets/style/font/Shrikhand/Shrikhand-Regular.ttf');
+    src: url('font/Shrikhand/Shrikhand-Regular.ttf');
 }
 
 html body 
@@ -61,7 +61,6 @@ header #headerImg
 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     background-color: white;
     border: solid white 1px;
     border-radius: 20px;
@@ -69,6 +68,8 @@ header #headerImg
     padding: 2px;
     box-shadow: 1px 1px 4px grey;
     position: relative;
+    
+
 }
 
 .choice h4
@@ -78,43 +79,59 @@ header #headerImg
 
 .check
 {
+    
     font-size: 30px;
     color: white;
     background-color: #99E2D0;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0px;
     width: 30px;
     height: 30px;
     padding: 20px;
     border-radius: 0px 20px 20px 0px;
+    transition: transform 500ms ease-in-out; 
+    transform: scaleX(0); 
+    transform-origin: right;
 }
-
-
-.flexCheck
+.check i 
 {
-    display: flex;
-    flex-direction: row;
+    transform: rotate(-90deg);
+    transition: transform 500ms ease-in-out;
+}
+.choice:hover .check i 
+{
+    transform: rotate(0deg);
+}
+.choice:hover .check
+{   
+    transform: scaleX(1);
+    
+}
+.choice:hover .choice2 span
+{
+    transform: translate(-80px, 0); 
 }
 
 .choice2
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 40px;
-    overflow: hidden;
-    white-space: nowrap;
+    height: 40px;   
 }
-
+.choice2 span
+{
+    transition: transform 330ms ease-in-out;
+}
 .choice2 p
 {
     font-weight: lighter;
     font-family: sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
-
 
 #button
 {
