@@ -157,6 +157,19 @@ header i
     transform: scaleX(1);
     
 }
+
+.choice h4, .choice2 p 
+{
+    width: 100%;
+}
+
+.choice h4:hover, .choice2 p:hover
+{
+    transition: width 1s ease-in-out;
+    width:60%;
+}
+
+
 .choice:hover .choice2 span
 {
     transform: translate(-80px, 0); 
