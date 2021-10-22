@@ -10,178 +10,194 @@
     src: url('font/Shrikhand/Shrikhand-Regular.ttf');
 }
 
-	html body 
-	{
-		font-family: 'Roboto', sans-serif;
-	}
+html body 
+{
+	font-family: 'Roboto', sans-serif;
+}
 
-	header img
-	{
-		width: 200px;
-		display: block;
-		margin: auto;
-	}
+header img
+{
+	width: 200px;
+	display: block;
+	margin: auto;
+}
 
-	.firstSection 
-	{
-		text-align: center;
-		background-color: rgb(247, 246, 246);
-		height: 300px;
-	}
+.firstSection 
+{
+	text-align: center;
+	background-color: rgb(247, 246, 246);
+	height: 300px;
+}
 
-	.firstSection #localisation
-	{
-		background-color: rgb(234, 234, 234);
-		padding: 14px;
-		box-shadow: 0px -2px 4px grey;
-	}
+.firstSection #localisation i
+{
+	margin-right: 10px;
+}
 
-	.firstSection h2
-	{
-		padding-top: 10px;
-	}
-
-	#button
-	{
-		background: linear-gradient(to bottom, rgb(238, 128, 214) 5%, rgb(138, 89, 213) 100%);
-		box-shadow: 2px 2px 2px black;
-		border-radius: 20px;
-	    padding: 14px;
-	    color: white;
-	    border: none;
-	}
-
-	#button:hover
-	{
-		box-shadow: 10px 5px 5px black;
-		opacity: 0.7;
-	}
-
-	nav
-	{
-		margin: 20px;
-	}
+.firstSection #localisation
+{
 	
-	nav p 
-	{
-		border: solid rgb(247, 246, 246) 1px;
-		background-color: rgb(247, 246, 246);
-		border-radius: 20px;
-		padding: 25px;
-	}
+	padding: 14px;
+	box-shadow: 0px -2px 4px grey;
+}
 
-	nav p:hover
-	{
-		background-color: rgba(138, 89, 213, 0.3);
-	}
+.firstSection #localisation input
+{
+	border: none;
+	background-color: rgb(247, 246, 246);
+}
 
-	nav i 
-	{
-		padding-right: 10px;
-		padding-left: 5px;
-	}
+.firstSection h2
+{
+	padding-top: 10px;
+}
 
-	nav .list
-	{
-		color: white;
-		border: solid rgb(138, 89, 213) 1px;
-		border-radius: 20px;
-		background-color: rgb(138, 89, 213);
-		padding: 2px 7px 2px 7px;
-		position: absolute;
-		left: 20px;
-	}
+#button
+{
+	background: linear-gradient(to bottom, rgb(238, 128, 214) 5%, rgb(138, 89, 213) 100%);
+	box-shadow: 2px 2px 2px black;
+	border-radius: 20px;
+    padding: 14px;
+    color: white;
+    border: none;
+}
 
-	.secondSection figure img
-	{
-		height: 130px;
-		width: 100%;
-		object-fit: cover;
-		border-radius: 20px 20px 0px 0px;
-	}
+#button:hover
+{
+	box-shadow: 10px 5px 5px black;
+	opacity: 0.7;
+}
 
-	.secondSection figure
-	{
-		border: solid rgb(247, 246, 246) 1px;
-		border-radius: 20px;
-		box-shadow: 0px 0px 10px grey;
-	}
+nav
+{
+	margin: 20px;
+}
 
-	.secondSection #new, #new2
-	{
-		border: solid #99E2D0 1px;
-		background-color: #99E2D0;
-		width: max-content;
-		padding: 5px;
-		color: rgb(76, 150, 124);
-	}
+nav p 
+{
+	border: solid rgb(247, 246, 246) 1px;
+	background-color: rgb(247, 246, 246);
+	border-radius: 20px;
+	padding: 25px;
+}
 
-	.secondSection #new
-	{
-		position: absolute;
-		right: 80px;
-		top: 740px;
-	}
+nav p:hover
+{
+	background-color: rgba(138, 89, 213, 0.3);
+}
 
-	.secondSection #new2
-	{
-		position: absolute;
-		right: 80px;
-		top: 976px;
-	}
+nav i 
+{
+	padding-right: 10px;
+	padding-left: 5px;
+}
 
-	.secondSection figure i 
-	{
-		position: absolute;
-    	right: 70px;
-    	font-size: 30px;
-    	opacity: 0.2;
-	}
+nav .list
+{
+	color: white;
+	border: solid rgb(138, 89, 213) 1px;
+	border-radius: 20px;
+	background-color: rgb(138, 89, 213);
+	padding: 2px 7px 2px 7px;
+	position: absolute;
+	left: 20px;
+}
 
-	.secondSection figure i:hover
-	{
-		color: rgb(138, 89, 213);
-		opacity: 1;
+.secondSection figure img
+{
+	height: 130px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 20px 20px 0px 0px;
+}
 
-	}
+.secondSection figure
+{
+	border: solid rgb(247, 246, 246) 1px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px grey;
+}
 
-	.secondSection figcaption
-	{
-		padding-left: 10px;
-	}
+.secondSection #new, #new2
+{
+	border: solid #99E2D0 1px;
+	background-color: #99E2D0;
+	width: max-content;
+	padding: 5px;
+	color: rgb(76, 150, 124);
+}
 
-	.secondSection .description
-	{
-		font-weight: lighter;
-		font-family: sans-serif;
-	}
+.secondSection #new
+{
+	position: absolute;
+	right: 80px;
+	top: 740px;
+}
 
-	a 
-	{
-		text-decoration: none;
-		color: black;
-	}
+.secondSection #new2
+{
+	position: absolute;
+	right: 80px;
+	top: 976px;
+}
 
-	footer
-	{
-		color: white;
-		background-color: rgb(54, 53, 53);
-		padding-bottom: 10px;
-	}
+.secondSection figure i 
+{
+	position: absolute;
+	right: 70px;
+	font-size: 30px;
+	opacity: 0.2;
+}
 
-	footer h3
-	{
-		font-family: 'Shrikhand' ;
-		padding-left: 30px;
-		padding-top: 30px;
-	}
+.secondSection figure i:hover
+{
+	color: rgb(138, 89, 213);
+	opacity: 1;
 
-	footer ul
-	{
-		list-style: none;
-	}
+}
 
-	footer li 
-	{
-		padding-top: 10px;
-	}
+.secondSection figcaption
+{
+	padding-left: 10px;
+}
+
+.secondSection .description
+{
+	font-weight: lighter;
+	font-family: sans-serif;
+}
+
+a 
+{
+	text-decoration: none;
+	color: black;
+}
+
+footer
+{
+	color: white;
+	background-color: rgb(54, 53, 53);
+	padding-bottom: 10px;
+}
+
+footer h3
+{
+	font-family: 'Shrikhand' ;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+footer ul
+{
+	list-style: none;
+}
+
+footer li 
+{
+	padding-top: 10px;
+}
+
+footer a
+{
+	color: white;
+}

@@ -29,13 +29,14 @@
 
 .pizzaContainer
 {
-  margin-left: 110px;
+  margin-left: 100px;
 }
 
 .utensils
 {
   animation: utensils 2s infinite;
   color: #FF79DA;
+  margin-left: 60px;
 }
 
 .pizza
@@ -47,7 +48,7 @@
 
 .utensilsContainer, .pizzaContainer
 {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 
@@ -123,10 +124,10 @@
     transform: translateY(0);
   }
   25% {
-    transform: translateY(1.5rem);
+    transform: translateY(20px);
   }
   75% {
-    transform: translateY(-1.5rem);
+    transform: translateY(-20px);
   }
   100% {
     transform: translateY(0);

@@ -16,7 +16,7 @@
 
 .animMenu1 .choice
 {
-    animation: animMenu 1s ease-in-out;
+    animation: animMenu 2s ease-in-out;
 }
 
 .animMenu2 .choice
@@ -26,17 +26,13 @@
 
 .animMenu3 .choice
 {
-    animation: animMenu 6s ease-in-out;
+    animation: animMenu 5s ease-in-out;
 }
 
 
 @keyframes animMenu {
     0% {
-         opacity: 0; box-shadow: 1px 1px 1px grey;
-    }
-
-    50% {
-        opacity: 0.5; box-shadow: 1px 1px 3px grey;
+         opacity: 0; box-shadow: 0px 0px 4px grey;
     }
 
     100% {
@@ -82,12 +78,27 @@ header #headerImg
     object-fit: cover;
 }
 
-#title i
+header i
+{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: black;
+}
+
+#title i 
 {
     position: absolute;
     right: 30px;
     top: 300px;
     font-size: 30px;
+    opacity: 0.1;
+}
+
+#title i:hover
+{
+    color: rgb(138, 89, 213);
+    opacity: 1;
 }
 
 #title
@@ -216,6 +227,11 @@ footer ul
 footer li 
 {
     padding-top: 10px;
+}
+
+footer a 
+{
+    color: white;
 }
 
  
