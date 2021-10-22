@@ -10,6 +10,44 @@
     src: url('font/Shrikhand/Shrikhand-Regular.ttf');
 }
 
+/*------------------
+        anim menu
+--------------------*/
+
+.animMenu1 .choice
+{
+    animation: animMenu 1s ease-in-out;
+}
+
+.animMenu2 .choice
+{
+    animation: animMenu 4s ease-in-out;
+}
+
+.animMenu3 .choice
+{
+    animation: animMenu 6s ease-in-out;
+}
+
+
+@keyframes animMenu {
+    0% {
+         opacity: 0; box-shadow: 1px 1px 1px grey;
+    }
+
+    50% {
+        opacity: 0.5; box-shadow: 1px 1px 3px grey;
+    }
+
+    100% {
+        opacity: 1; box-shadow: 1px 1px 5px grey;
+    }
+}
+
+/*------------------
+--------------------*/
+
+
 html body 
 {
     font-family: 'Roboto', sans-serif;
@@ -66,7 +104,7 @@ header #headerImg
     border-radius: 20px;
     margin: 7px;
     padding: 2px;
-    box-shadow: 1px 1px 4px grey;
+    box-shadow: 1px 1px 5px grey;
     position: relative;
     
 
@@ -129,8 +167,13 @@ header #headerImg
 {
     font-weight: lighter;
     font-family: sans-serif;
+}
+
+.choice2 p, .choice h4
+{
     text-overflow: ellipsis;
     overflow: hidden;
+    white-space: nowrap;
 }
 
 #button
@@ -155,6 +198,7 @@ footer
 {
     color: white;
     background-color: rgb(54, 53, 53);
+    padding-bottom: 10px;
 }
 
 footer h3
@@ -173,3 +217,5 @@ footer li
 {
     padding-top: 10px;
 }
+
+ 
