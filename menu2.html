@@ -5,7 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/style/styleMenu.css">
-	<link rel="shortcut icon" type="image/png" href="assets/images/logo/ohmyfood.png" />
+
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	
 	<title>OH MY FOOD</title>
 </head>
 <body>
@@ -19,7 +24,10 @@
 	<main>
 		<div id="title">
 			<h2>La note enchantée</h2>
-			<p><i class="fas fa-heart"></i></p>
+			<span class="heartHover">
+				<i class="fas fa-heart"></i>
+				<i class="far fa-heart"></i>
+			</span>
 		</div>
 		<section class="animMenu1">
 			<h3>ENTRÉES</h3>
@@ -130,13 +138,15 @@
 				</div>
 			</div>
 		</section>
-		<input id="button" type="submit" name="commander" value="commander">
+		<div class="buttonContainer">
+			<input id="button" type="submit" name="commander" value="commander">
+		</div>
 	</main>
 	<footer>
 		<h3>oh my food</h3>
 		<ul>
 			<li><a href=""><i class="fas fa-utensils"></i> Proposer un restaurant</a></li>
-			<li><a href=""><i class="fas fa-handshake"></i> Devenir partenaire</a></li>
+			<li><a href=""><i class="fas fa-hands-helping"></i> Devenir partenaire</a></li>
 			<li>Mentions légales</li>
 			<li><a href="mailto:ohmyfood@exemple.com">Contact</a></li>
 		</ul>

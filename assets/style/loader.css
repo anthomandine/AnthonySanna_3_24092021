@@ -82,7 +82,7 @@
   justify-content:center;
 }
 
-.loader__item
+.loaderItem
 {
   height: 1rem;
   width: 1rem;
@@ -91,24 +91,24 @@
   animation-iteration-count: 5;
 }
 
-.loader__item--1
+.loaderItem-1
 {
   color: #9356DC;
 }
 
-.loader__item--2
+.loaderItem-2
 {
   color: #FF79DA;
   animation-delay: 0.25s;
 }
 
-.loader__item--3
+.loaderItem-3
 {
   color: #99E2D0;
   animation-delay: 0.5s;
 }
 
-.loader__itemContainer
+.loaderItemContainer
 {
   display: flex;
   width: 150px;

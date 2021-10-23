@@ -47,13 +47,17 @@
 html body 
 {
     font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
 }
 
 main
 {
     background-color: rgb(247, 246, 246);
     padding-top: 10px;
-    border-radius: 20px;
+    border-radius: 40px;
+    margin-top: -40px;
+    margin-bottom: -50px;
+    position: relative;
 }
 
 main h3
@@ -62,6 +66,7 @@ main h3
     border-bottom: solid #99E2D0 3px;
     width: 50px;
     padding-block-end: 5px;
+    margin-left: 20px;
 }
 
 header #logo
@@ -69,12 +74,13 @@ header #logo
     width: 200px;
     display: block;
     margin: auto;
+    padding: 15px 0px;
 }
 
 header #headerImg
 {
     width: 100%;
-    height: 220px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -86,20 +92,44 @@ header i
     color: black;
 }
 
-#title i 
+
+
+
+.heartHover .fas.fa-heart
 {
     position: absolute;
     right: 30px;
-    top: 300px;
+    top: 35px;
     font-size: 30px;
-    opacity: 0.1;
+    opacity: 0;
+    background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-#title i:hover
+.heartHover .far.fa-heart
 {
-    color: rgb(138, 89, 213);
     opacity: 1;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    font-size: 30px;
 }
+
+.heartHover:hover .fas.fa-heart
+{
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.heartHover:hover .far.fa-heart
+{
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+
+
 
 #title
 {
@@ -113,8 +143,8 @@ header i
     background-color: white;
     border: solid white 1px;
     border-radius: 20px;
-    margin: 7px;
-    padding: 2px;
+    margin: 15px 10px;
+    padding: 1px 20px;
     box-shadow: 1px 1px 5px grey;
     position: relative;
     
@@ -163,9 +193,9 @@ header i
     width: 100%;
 }
 
-.choice h4:hover, .choice2 p:hover
+.choice h4:hover, .choice p:hover
 {
-    transition: width 1s ease-in-out;
+    transition: width 500ms ease-in-out;
     width:60%;
 }
 
@@ -200,6 +230,11 @@ header i
     white-space: nowrap;
 }
 
+.buttonContainer
+{
+    padding-bottom: 30px;
+}
+
 #button
 {
     background: linear-gradient(to bottom, rgb(238, 128, 214) 5%, rgb(138, 89, 213) 100%);
@@ -209,7 +244,7 @@ header i
     color: white;
     border: none;
     display: block;
-    margin: auto;
+    margin: 30px auto;
 }
 
 #button:hover
@@ -223,6 +258,7 @@ footer
     color: white;
     background-color: rgb(54, 53, 53);
     padding-bottom: 10px;
+    position: relative;
 }
 
 footer h3
@@ -235,6 +271,7 @@ footer h3
 footer ul
 {
     list-style: none;
+
 }
 
 footer li 
@@ -245,6 +282,11 @@ footer li
 footer a 
 {
     color: white;
+    text-decoration: none;
 }
 
+footer .fas.fa-utensils, footer .fas.fa-hands-helping
+{
+    margin-right: 10px;
+}
  
