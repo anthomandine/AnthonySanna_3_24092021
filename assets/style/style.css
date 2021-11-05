@@ -114,6 +114,11 @@ nav .list
 	left: 10px;
 }
 
+section h2
+{
+	margin-left: 20px;
+}
+
 .secondSection figure img
 {
 	height: 150px;
