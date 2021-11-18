@@ -1,11 +1,8 @@
-@font-face
-{
+@font-face{
     font-family: 'Roboto';
     src: url('font/Roboto/Roboto-Medium.ttf');
 }
-
-@font-face
-{
+@font-face{
     font-family: 'Shrikhand';
     src: url('font/Shrikhand/Shrikhand-Regular.ttf');
 }
@@ -14,31 +11,20 @@
         anim menu
 --------------------*/
 
-.animMenu1 .choice
-{
+.animMenu1 .choice{
     animation: animMenu 2s ease-in-out;
 }
-
-.animMenu2 .choice
-{
+.animMenu2 .choice{
     animation: animMenu 4s ease-in-out;
 }
-
-.animMenu3 .choice
-{
+.animMenu3 .choice{
     animation: animMenu 5s ease-in-out;
 }
-
-
-@keyframes animMenu 
-{
-    0% 
-    {
+@keyframes animMenu{
+    0%{
          opacity: 0; box-shadow: 0px 0px 4px grey;
     }
-
-    100% 
-    {
+    100%{
         opacity: 1; box-shadow: 1px 1px 5px grey;
     }
 }
@@ -46,15 +32,11 @@
 /*------------------
 --------------------*/
 
-
-html body 
-{
+html body {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
 }
-
-main
-{
+main{
     background-color: rgb(247, 246, 246);
     padding-top: 10px;
     border-radius: 40px;
@@ -62,50 +44,35 @@ main
     margin-bottom: -50px;
     position: relative;
 }
-
-#title
-{
+#title{
     margin-left: 20px;
 }
-
-main h3
-{
+main h3{
     font-family: sans-serif;
     border-bottom: solid #99E2D0 3px;
     width: 50px;
     padding-block-end: 5px;
     margin-left: 20px;
 }
-
-header #logo
-{
+header #logo{
     width: 200px;
     display: block;
     margin: auto;
     padding: 15px 0px;
 }
-
-header #headerImg
-{
+header #headerImg{
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
-
-header i
-{
+header i{
     position: absolute;
     left: 15px;
     top: 20px;
     color: black;
     font-size: 25px;
 }
-
-
-
-
-.heartHover .fas.fa-heart
-{
+.heartHover .fas.fa-heart{
     position: absolute;
     right: 30px;
     top: 35px;
@@ -115,38 +82,25 @@ header i
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-.heartHover .far.fa-heart
-{
+.heartHover .far.fa-heart{
     opacity: 1;
     position: absolute;
     right: 30px;
     top: 35px;
     font-size: 30px;
 }
-
-.heartHover:hover .fas.fa-heart
-{
+.heartHover:hover .fas.fa-heart{
     opacity: 1;
     transition: 0.3s ease-in-out;
 }
-
-.heartHover:hover .far.fa-heart
-{
+.heartHover:hover .far.fa-heart{
     opacity: 0;
     transition: 0.3s ease-in-out;
 }
-
-
-
-
-#title
-{
+#title{
     font-family: 'Shrikhand';
 }
-
-.choice
-{
+.choice{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -156,96 +110,71 @@ header i
     padding: 1px 20px;
     box-shadow: 1px 1px 5px grey;
     position: relative;
-    
-
+    overflow: hidden;
 }
-
-.choice h4
-{
+.choice h4{
     margin: 4px;
 }
-
-.check
-{
-    
+.check{
     font-size: 30px;
     color: white;
     background-color: #99E2D0;
     position: absolute;
     top: 0;
-    right: 0px;
+    left: 100%;
     width: 30px;
     height: 30px;
     padding: 20px;
     border-radius: 0px 20px 20px 0px;
     transition: transform 500ms ease-in-out; 
-    transform: scaleX(0); 
+    visibility: hidden;
     transform-origin: right;
 }
-.check i 
-{
-    transform: rotate(-90deg);
+.check i {
+    transform: rotate(-360deg);
     transition: transform 500ms ease-in-out;
 }
-.choice:hover .check i 
-{
+.choice:hover .check i {
     transform: rotate(0deg);
 }
-.choice:hover .check
-{   
-    transform: scaleX(1);
-    
+.choice:hover .check{   
+    transform: translateX(-100%);
+    visibility: visible;
 }
-
-.choice h4, .choice2 p 
-{
+.choice h4, .choice2 p {
     width: 100%;
 }
-
-.choice h4:hover, .choice p:hover
-{
+.choice h4:hover, 
+.choice p:hover{
     transition: width 500ms ease-in-out;
     width:60%;
 }
-
-
-.choice:hover .choice2 span
-{
+.choice:hover .choice2 span{
     transform: translate(-80px, 0); 
 }
-
-.choice2
-{
+.choice2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 40px;   
 }
-.choice2 span
-{
+.choice2 span{
     transition: transform 330ms ease-in-out;
 }
-.choice2 p
-{
+.choice2 p{
     font-weight: lighter;
     font-family: sans-serif;
 }
-
-.choice2 p, .choice h4
-{
+.choice2 p, .choice h4{
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
 }
-
-.buttonContainer
-{
+.buttonContainer{
     padding-bottom: 30px;
 }
-
-#button
-{
+#button{
     background: linear-gradient(to bottom, rgb(238, 128, 214) 5%, rgb(138, 89, 213) 100%);
     box-shadow: 2px 2px 2px black;
     border-radius: 20px;
@@ -255,47 +184,34 @@ header i
     display: block;
     margin: 30px auto;
 }
-
-#button:hover
-{
+#button:hover{
     box-shadow: 10px 5px 5px black;
     opacity: 0.7;
 }
-
-footer
-{
+footer{
     color: white;
     background-color: rgb(54, 53, 53);
     padding-bottom: 10px;
     position: relative;
 }
-
-footer h3
-{
+footer h3{
     font-family: 'Shrikhand';
     padding-left: 30px;
     padding-top: 30px;
 }
-
-footer ul
-{
+footer ul{
     list-style: none;
 
 }
-
-footer li 
-{
+footer li {
     padding-top: 10px;
 }
-
-footer a 
-{
+footer a {
     color: white;
     text-decoration: none;
 }
-
-footer .fas.fa-utensils, footer .fas.fa-hands-helping
-{
+footer .fas.fa-utensils, 
+footer .fas.fa-hands-helping{
     margin-right: 10px;
 }
  

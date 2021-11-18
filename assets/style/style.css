@@ -1,68 +1,49 @@
-@font-face
-{
+@font-face{
     font-family: 'Roboto';
     src: url('font/Roboto/Roboto-Medium.ttf');
 }
-
-@font-face
-{
+@font-face{
     font-family: 'Shrikhand';
     src: url('font/Shrikhand/Shrikhand-Regular.ttf');
 }
-
-html body 
-{
+html body{
 	width: 100%;
 	font-family: 'Roboto', sans-serif;
 	margin: 0 auto;
 }
-
-header img
-{
+header img{
 	width: 200px;
 	display: block;
 	margin: 0 auto;
 	padding: 15px;
 }
-
-.firstSection 
-{
+.firstSection{
 	text-align: center;
 	background-color: rgb(247, 246, 246);
 	height: 300px;
 }
-
-.firstSection p 
-{
+.firstSection p{
 	width: 80%;
 	margin: 20px auto;
 }
-
-.firstSection #localisation
-{
+.firstSection #localisation{
 	margin: 0 auto;
     padding: 10px 0px;
     width: 100%;
     text-align: center;
 	box-shadow: 0px -2px 4px grey;
 }
-
-.firstSection #localisation input
-{
+.firstSection #localisation input{
 	border: none;
 	background-color: rgb(247, 246, 246);
 	text-align: center;
 }
-
-.firstSection h2
-{
+.firstSection h2{
 	padding-top: 30px;
     width: 65%;
     margin: 0 auto;
 }
-
-#button
-{
+#button{
 	background: linear-gradient(to bottom, rgb(238, 128, 214) 5%, rgb(138, 89, 213) 100%);
 	box-shadow: 2px 2px 2px black;
 	border-radius: 20px;
@@ -70,48 +51,34 @@ header img
     color: white;
     border: none;
 }
-
-#button:hover
-{
+#button:hover{
 	box-shadow: 10px 5px 5px black;
 	opacity: 0.7;
 }
-
-nav
-{
+nav{
 	margin: 20px;
 	padding: 20px 0px;
 }
-
-nav p 
-{
+nav p{
 	border: solid rgb(247, 246, 246) 1px;
 	background-color: rgb(247, 246, 246);
 	border-radius: 20px;
 	padding: 25px;
 	box-shadow: 0px 3px 5px 2px rgb(221 218 218);
 }
-
-nav p:hover
-{
+nav p:hover{
 	background-color: rgba(138, 89, 213, 0.2);
 }
-
 nav p:hover .fas.fa-store, 
 nav p:hover .fas.fa-list-ul, 
-nav p:hover .fas.fa-mobile-alt
-{
+nav p:hover .fas.fa-mobile-alt{
 	color: rgb(138, 89, 213);
 }
-
-nav i 
-{
+nav i{
 	padding-right: 10px;
 	padding-left: 5px;
 }
-
-nav .list
-{
+nav .list{
 	color: white;
 	border: solid rgb(138, 89, 213) 1px;
 	border-radius: 20px;
@@ -120,59 +87,43 @@ nav .list
 	position: absolute;
 	left: 10px;
 }
-
-section h2
-{
+section h2{
 	margin-left: 20px;
 	padding-top: 30px;
 }
-
-.secondSection
-{
+.secondSection{
 	background-color: rgb(247, 246, 246);
 }
-
-.secondSection figure img
-{
+.secondSection figure img{
 	height: 150px;
 	width: 100%;
 	object-fit: cover;
 	border-radius: 20px 20px 0px 0px;
 }
-
-.secondSection figure
-{
+.secondSection figure{
 	border: solid rgb(247, 246, 246) 1px;
 	border-radius: 20px;
 	box-shadow: 0px 0px 10px grey;
 	margin: 20px 20px;
 }
-
-.secondSection #new, #new2
-{
+.secondSection #new, #new2{
 	border: solid #99E2D0 1px;
 	background-color: #99E2D0;
 	width: max-content;
 	padding: 5px;
 	color: rgb(76, 150, 124);
 }
-
-.secondSection #new
-{
+.secondSection #new{
 	position: absolute;
 	right: 80px;
 	top: 850px;
 }
-
-.secondSection #new2
-{
+.secondSection #new2{
 	position: absolute;
 	right: 80px;
 	top: 1110px;
 }
-
-.heartHover .fas.fa-heart
-{
+.heartHover .fas.fa-heart{
 	position: absolute;
 	right: 70px;
 	font-size: 30px;
@@ -181,74 +132,51 @@ section h2
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-.heartHover .far.fa-heart
-{
+.heartHover .far.fa-heart{
 	opacity: 1;
 	position: absolute;
 	right: 70px;
 	font-size: 30px;
 }
-
-.heartHover:hover .fas.fa-heart
-{
+.heartHover:hover .fas.fa-heart{
 	opacity: 1;
 	transition: 0.3s ease-in-out;
 }
-
-.heartHover:hover .far.fa-heart
-{
+.heartHover:hover .far.fa-heart{
 	opacity: 0;
 	transition: 0.3s ease-in-out;
 }
-
-.secondSection figcaption
-{
+.secondSection figcaption{
 	padding-left: 10px;
 }
-
-.secondSection .description
-{
+.secondSection .description{
 	font-weight: lighter;
 	font-family: sans-serif;
 }
-
-a 
-{
+a{
 	text-decoration: none;
 	color: black;
 }
-
-footer
-{
+footer{
 	color: white;
 	background-color: rgba(54, 53, 53, 0.9);
 	padding-bottom: 10px;
 }
-
-footer h3
-{
+footer h3{
 	font-family: 'Shrikhand' ;
 	padding-left: 30px;
 	padding-top: 30px;
 }
-
-footer ul
-{
+footer ul{
 	list-style: none;
 }
-
-footer li 
-{
+footer li{
 	padding-top: 10px;
 }
-
-footer a
-{
+footer a{
 	color: white;
 }
-
-footer .fas.fa-utensils, footer .fas.fa-hands-helping
-{
+footer .fas.fa-utensils, 
+footer .fas.fa-hands-helping{
 	margin-right: 10px;
 }

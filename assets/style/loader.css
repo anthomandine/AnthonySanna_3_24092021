@@ -1,76 +1,56 @@
-@font-face
-{
+@font-face{
     font-family: 'Shrikhand';
     src: url('font/Shrikhand/Shrikhand-Regular.ttf');
 }
-
 
 /*------------------
     ustensils, pizza
 --------------------*/
 
-@keyframes utensils
-{
-  0%
-  {
+@keyframes utensils{
+  0%{
       transform: rotate(0deg); 
   }
-  100%
-  {
+  100%{
       transform: rotateX(360deg);
   }
 }
-
-@keyframes pizza
-{
-  0%
-  {
+@keyframes pizza{
+  0%{
       transform: rotate(0deg); 
   }
-  100%
-  {
+  100%{
       transform: rotateY(360deg);
   }
 }
-
-.pizzaContainer
-{
+.pizzaContainer{
   margin-left: 100px;
 }
-
-.utensils
-{
+.utensils{
   animation: utensils 2s infinite;
   color: #FF79DA;
   margin-left: 60px;
 }
-
-.pizza
-{
+.pizza{
   animation: pizza 2s infinite;
   color: #9356DC;
 }
-
-
-.utensilsContainer, .pizzaContainer
-{
+.utensilsContainer, 
+.pizzaContainer{
   margin-right: 20px;
 }
-
 
 /*------------------
       loader
 --------------------*/
 
-@keyframes loader {
-  100% {
+@keyframes loader{
+  100%{
     opacity: 0;
     z-index: -10;
   }
 } 
-
-.loader 
-{
+.loader{
   position: fixed;
   height: 100%;
   width: 100%;
@@ -87,35 +67,25 @@
   align-items:center;
   justify-content:center;
 }
-
-.loaderItem
-{
+.loaderItem{
   height: 1rem;
   width: 1rem;
   border-radius: 1rem;
   animation: jump 1.5s;
   animation-iteration-count: 5;
 }
-
-.loaderItem-1
-{
+.loaderItem-1{
   color: #9356DC;
 }
-
-.loaderItem-2
-{
+.loaderItem-2{
   color: #FF79DA;
   animation-delay: 0.25s;
 }
-
-.loaderItem-3
-{
+.loaderItem-3{
   color: #99E2D0;
   animation-delay: 0.5s;
 }
-
-.loaderItemContainer
-{
+.loaderItemContainer{
   display: flex;
   width: 150px;
   justify-content: space-between;
@@ -125,18 +95,14 @@
         jump
 --------------------*/
 
-@keyframes jump 
-{
-  0% 
-  {
+@keyframes jump{
+  0%{
     transform: translateY(0);
   }
-  25% 
-  {
+  25%{
     transform: translateY(20px);
   }
-  75% 
-  {
+  75%{
     transform: translateY(-20px);
   }
   100% 
