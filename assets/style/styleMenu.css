@@ -144,11 +144,15 @@ header i{
 .choice h4, .choice2 p {
     width: 100%;
 }
-.choice h4:hover, 
-.choice p:hover{
+
+.choice:hover p{
     transition: width 500ms ease-in-out;
-    width:60%;
+    width:55%;
 }
+.choice:hover h4{
+    transition: width 500ms ease-in-out;
+    width:70%;
+} 
 .choice:hover .choice2 span{
     transform: translate(-80px, 0); 
 }
